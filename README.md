@@ -24,7 +24,11 @@ There are two channels of data provided in this dataset:
 - If the sentiment is positive then the price of the stock should rise and it should fall if the sentiment is negative
 
 ## Sentiment Analysis and Modelling
-In this project we will utilise the following methods/models for our analysis
+In this project I have utilised the following methods/models for our analysis
+- CountVectorizer
+- TfidfVectorizer
+- RandomForestClassifier
+- Naive Bayes
 - TextBlob
 - SentimentIntensityAnalyzer
 - LinearDiscriminantAnalysis
